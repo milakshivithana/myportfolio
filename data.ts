@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
     year: "2026",
     description: "A premium full-stack job application tracker designed with a serverless PostgreSQL cloud database (Neon) and Spring Data JPA. Features a high-performance Next.js 16/React 19 frontend with zero-dependency native Drag-and-Drop, responsive Glassmorphism, HSL color tokens, and glowing animations. Powered by a Spring Boot 4.0.6 & Java 25 RESTful API utilizing HikariCP for low latency and CORS policy mapping, fully deployed on Vercel with GitHub CI/CD.",
     techStack: ["Spring Boot", "Next.js", "PostgreSQL", "Neon Cloud", "Tailwind CSS v4", "REST API"],
-    repoLink: "https://github.com/milakshivithana/JobTrackerProject",
+    repoLink: "https://github.com/milakshivithana/job-tracker-saas.git",
     image: "/job-tracker.png"
   },
   {
