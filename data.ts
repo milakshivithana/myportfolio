@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   summary: "I'm an IT undergraduate specializing in Software Engineering at SLIIT. I have hands-on experience in Java, Python, web development, and database systems, with a strong foundation in OOP and software development life cycle practices. I have contributed to real-world projects, including a Bike Rental & Ride-Sharing Platform and a Web-based Apartment Sales System, focusing on feature development, code quality, and team collaboration. I am eager to leverage my technical skills and problem-solving abilities to contribute effectively as a Software Engineer Intern or Trainee Software Engineer.",
   email: "milakshivithana@gmail.com",
   linkedin: "https://www.linkedin.com/in/milakshi-vithana",
-  github: "https://github.com/it24103200",
+  github: "https://github.com/milakshivithana",
   location: "Matara, Sri Lanka"
 };
 
@@ -142,12 +142,21 @@ export const CERTIFICATES: Certificate[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "p0",
+    title: "JobTracker (CareerSuite)",
+    year: "2026",
+    description: "A premium full-stack job application tracker designed with a serverless PostgreSQL cloud database (Neon) and Spring Data JPA. Features a high-performance Next.js 16/React 19 frontend with zero-dependency native Drag-and-Drop, responsive Glassmorphism, HSL color tokens, and glowing animations. Powered by a Spring Boot 4.0.6 & Java 25 RESTful API utilizing HikariCP for low latency and CORS policy mapping, fully deployed on Vercel with GitHub CI/CD.",
+    techStack: ["Spring Boot", "Next.js", "PostgreSQL", "Neon Cloud", "Tailwind CSS v4", "REST API"],
+    repoLink: "https://github.com/milakshivithana/JobTrackerProject",
+    image: "/job-tracker.png"
+  },
+  {
     id: "p1",
     title: "BikeRenting-RideSharing",
     year: "2025",
     description: "A comprehensive platform for bicycle rentals and ride-sharing. It features real-time availability tracking, user booking management, and a seamless rental interface.",
     techStack: ["Java", "OOP"],
-    repoLink: "https://github.com/it24103200/BikeRenting-RideSharing",
+    repoLink: "https://github.com/milakshivithana/BikeRenting-RideSharing",
     image: "/bike-rental.png",
   },
   {
@@ -156,7 +165,7 @@ export const PROJECTS: Project[] = [
     year: "2025",
     description: "A comprehensive management system for apartment booking and administration, streamlining tenant interactions and property maintenance.",
     techStack: ["Java", "CSS", "JavaScript", "TSQL", "Maven"],
-    repoLink: "https://github.com/it24103200/ApartmentX-System.git",
+    repoLink: "https://github.com/milakshivithana/ApartmentX-System.git",
     image: "/apartment-x.png",
   },
   {
@@ -165,7 +174,7 @@ export const PROJECTS: Project[] = [
     year: "2025",
     description: "A web application that helps developers quickly find and fix errors with clear messages, detailed logs, and easy tracking.",
     techStack: ["NEXT.js", "Tailwind CSS", "Radix UI", "MySQL"],
-    repoLink: "https://github.com/it24103200/error-xplorer.git",
+    repoLink: "https://github.com/milakshivithana/error-xplorer.git",
     image: "/error-xplorer-dashboard.png"
   },
   {
@@ -174,7 +183,7 @@ export const PROJECTS: Project[] = [
     year: "2025",
     description: "Web-based shopping mall system designed to revolutionize the shopping experience by providing advanced product discovery features.",
     techStack: ["MERN Stack", "Vite", "Tailwind CSS", "DaisyUI"],
-    repoLink: "https://github.com/it24103200",
+    repoLink: "https://github.com/milakshivithana",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=2089&auto=format&fit=crop"
   },
   {
@@ -183,7 +192,7 @@ export const PROJECTS: Project[] = [
     year: "2025",
     description: "A comprehensive web application for e-channeling and securely sharing medical details, designed to improve patient care.",
     techStack: ["MERN Stack", "Vite", "Tailwind CSS", "JavaScript"],
-    repoLink: "https://github.com/it24103200",
+    repoLink: "https://github.com/milakshivithana",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
   }
 ];
